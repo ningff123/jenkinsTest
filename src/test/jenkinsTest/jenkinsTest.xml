@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="测试jenkins运行xml" thread-count="1" parallel="instances"
+       verbose="2">
+
+    <parameter name="projectName" value="C1龙小湖-U享家服务号 v2.0"/>
+    <test name="登录检查" verbose="10" preserve-order="true">
+        <classes>
+            <class name="com.nff.test1"/>
+        </classes>
+    </test>
+</suite>
